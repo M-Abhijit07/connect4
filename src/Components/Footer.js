@@ -1,10 +1,11 @@
 import React from "react";
 import "../Game.css";
 
-const Footer = ({onClickEvent}) => {
+const Footer = ({onNewGameClick, onSuggestClick}) => {
     return (
         <div className="panel footer">
-            <button onClick={onClickEvent}>New Game</button>
+            <button onClick={onNewGameClick}>New Game</button>
+            <button onClick={onSuggestClick}>Suggest</button>
         </div>
     )
 }

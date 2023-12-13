@@ -45,19 +45,23 @@ body {
   height : 80px;
   width: 300px;
   margin-left: -120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .footer button {
-  position: relative;
-  left: 50%;
-  top: 20%;
-  margin-left: -125px;
-  width: 250px;
+  width: 140px;
   height: 50px;
+  margin-left: 5px;
+  margin-top: 15px;
   background-color: lightblue;
-  font-size: 30px;
+  font-size: 23px;
   border: 5px solid chocolate;
   font-weight: bold;
+}
+
+.footer button:hover{
+  background-color: chocolate;
 }
 
 .gameBoard {
@@ -80,9 +84,9 @@ body {
 .gameCircle {
   width: 100px;
   height: 100px;
-  margin: 12px;
+  margin: 10px;
   border-radius: 50%;
-  border : 2px solid black;
+  border : 5px solid black;
 }
 
 .player0 {
